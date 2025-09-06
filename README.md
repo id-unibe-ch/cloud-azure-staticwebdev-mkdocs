@@ -4,8 +4,9 @@ This repository represents a MkDocs documentation that is deployed to Azure Stat
 Apps. It features everything needed to create a static web app and to deploy the MkDocs
 site into it.
 
-Fork this repo to your account/organisation and start provisioning and deploying
-to a subscription of yours.
+This repo is a template repo. You can [create your own copy of this
+repo](https://github.com/new?template_name=cloud-azure-staticwebdev-mkdocs&template_owner=id-unibe-ch)
+and start provisioning and deploying to a subscription of yours.
 
 ## Prerequisites
 
@@ -17,9 +18,12 @@ your machine
 
 ## Setup
 
-Clone your fork to your local machine. Then adjust `terraform/terraform.tfvars`
-to your liking. The `repository_fullname` must point to your fork. Do not forget
-to adjust the tags.
+Clone your copy to your local machine and adjust the variables in the
+`terraform/terraform.tfvars` file . Choose a meaningful workload name for your
+use case, adjust the tags according your [tagging
+strategy](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/resource-tagging).
+Make sure the variables `github_organisation` and `repository_name` point to
+your copy at GitHub.
 
 The terraform state is saved locally in this example. If you need remote state,
 you need to configure a backend accordingly, which is not in the scope of this
