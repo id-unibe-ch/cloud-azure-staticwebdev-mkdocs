@@ -5,12 +5,14 @@ Apps. It features everything needed to create a static web app and to deploy the
 site into it.
 
 This repo is a template repo. You can [create your own copy of this
-repo](https://github.com/new?template_name=cloud-azure-staticwebdev-mkdocs&template_owner=id-unibe-ch)
-and start provisioning and deploying to a subscription of yours.
+repo][link_copyrepo] and start provisioning and deploying to a subscription of
+yours.
+
+[link_copyrepo]: https://github.com/new?template_name=cloud-azure-staticwebapp-mkdocs&template_owner=id-unibe-ch
 
 ## Prerequisites
 
-* A fork of this repo on GitHub, where you have full access to it
+* A copy of this repo on GitHub, where you have full access rights
 * An Azure subscription with permission to create resources
 * The tools `git`, `gh` (GitHub CLI) and `terraform` (or OpenTofu) installed on
 your machine
